@@ -63,3 +63,5 @@ AutoStartFlow replaces that with a simple interface. Add your apps, choose when 
 
 - v1.0.0:
     - Initial release.
+- v1.0.1:
+    - Fixed a critical error where ‘AutoStartFlow Setup.exe’ and ‘AutoStartFlow.exe’ failed to launch on some Windows systems.
