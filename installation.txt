@@ -1,0 +1,65 @@
+AutoStartFlow - Installation Instructions
+
+REQUIREMENTS
+Windows 10 or 11 (64-bit), MSFS 2020 or MSFS 2024, and Microsoft Edge WebView2 Runtime (comes with most PCs).
+Python and the required libraries are included.
+
+FIRST INSTALLATION
+1. Extract the entire release ZIP into a folder. Do not run Setup inside the ZIP.
+2. Close MSFS and exit AutoStartFlow from its tray menu.
+3. Open AutoStartFlow Setup.exe at the top level of the extracted folder.
+4. Click Install. Choose your installation location and simulator profile,
+   executable and exe.xml. Use Detect paths or the browse buttons as needed.
+   Selecting Desktop, for example, creates Desktop/AutoStartFlow.
+5. Click Continue. Existing exe.xml startup apps are detected automatically.
+   The location must match the selected simulator's per-user configuration
+   folder. A Desktop copy or Community/packages location is not accepted.
+6. Choose preferences and click Save and open AutoStartFlow.
+   Flight Watch, Launch with MSFS and administrator privileges default to On;
+   theme defaults to Dark.
+   Other optional switches default to Off. No developer startup apps are shipped.
+7. AutoStartFlow opens from the installation location you selected.
+
+USING AUTOSTARTFLOW
+Open AutoStartFlow from the Start menu or AutoStartFlow.exe in its installation folder.
+That folder contains the two launchers, README.md, installation.txt and runtime.
+Keep runtime intact. After installation, the extracted download can be removed.
+Settings and backups stay in your Windows account.
+
+UPDATING
+1. Extract the complete newer release ZIP and close AutoStartFlow and MSFS.
+2. Run Setup from the extracted newer release, then click Update.
+3. Select the exact already-installed AutoStartFlow folder (not its parent).
+4. Click Update. Only managed program files are replaced; settings.json, startup
+   profiles, preferences, exe.xml and backups are preserved. Invalid folders and
+   running installations cannot be updated. Previous files are restored if an
+   update fails. Click Open AutoStartFlow when the update finishes.
+
+Install is a clean setup. It resets AutoStartFlow settings, custom profiles and
+quick configurations when you finish setup. A warning is shown before replacing
+an existing setup. Choose Update to preserve everything. Cancelling setup makes
+no configuration changes. Simulator startup entries are re-imported during a
+clean install; unrelated simulator XML entries are preserved.
+
+Legacy MSI installations must use their MSI upgrade mechanism.
+
+UNINSTALLING
+Close MSFS, then open AutoStartFlow Setup and click Uninstall, or use Windows
+Settings > Apps > AutoStartFlow > Uninstall to open Setup.
+Original imported simulator startup entries are restored where available.
+Managed entries also carry their original executable and arguments, so they
+can be restored even after switching profiles or losing saved app snapshots.
+Uninstall stops if an entry cannot be recovered; it does not silently erase it.
+Setup removes its runtime, documentation and shortcuts, then removes the empty
+AutoStartFlow folder. Unrelated files and the parent folder are preserved.
+Settings and backups are retained for a later reinstall.
+
+SETTINGS AND BACKUPS
+Settings: %LOCALAPPDATA%/AutoStartFlow/settings.json
+Original snapshot beside simulator exe.xml: exe.xml.hangar.original.bak
+Rolling backup beside simulator exe.xml: exe.xml.hangar.bak
+Pre-restore copies: %LOCALAPPDATA%/AutoStartFlow/backups
+
+SUPPORT
+https://discord.gg/EjFtMeF9Sm
+

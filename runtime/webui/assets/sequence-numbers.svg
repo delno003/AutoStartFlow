@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="136" viewBox="0 0 760 136" fill="none">
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle" dominant-baseline="central">
+    <g transform="translate(12 20)"><rect width="82" height="96" rx="25" fill="#10251D"/><rect x="1" y="1" width="80" height="94" rx="24" stroke="#55D9A0" stroke-opacity=".3" stroke-width="2"/><text x="41" y="49" fill="#55D9A0">01</text></g>
+    <g transform="translate(104 20)"><rect width="82" height="96" rx="25" fill="#172638"/><rect x="1" y="1" width="80" height="94" rx="24" stroke="#A9CBF1" stroke-opacity=".3" stroke-width="2"/><text x="41" y="49" fill="#A9CBF1">02</text></g>
+    <g transform="translate(196 20)"><rect width="82" height="96" rx="25" fill="#292A38"/><rect x="1" y="1" width="80" height="94" rx="24" stroke="#96B5DC" stroke-opacity=".3" stroke-width="2"/><text x="41" y="49" fill="#96B5DC">03</text></g>
+    <g transform="translate(288 20)"><rect width="82" height="96" rx="25" fill="#302315"/><rect x="1" y="1" width="80" height="94" rx="24" stroke="#F1B15E" stroke-opacity=".3" stroke-width="2"/><text x="41" y="49" fill="#F1B15E">04</text></g>
+    <g transform="translate(380 20)"><rect width="82" height="96" rx="25" fill="#10251D"/><rect x="1" y="1" width="80" height="94" rx="24" stroke="#55D9A0" stroke-opacity=".3" stroke-width="2"/><text x="41" y="49" fill="#55D9A0">05</text></g>
+    <g transform="translate(472 20)"><rect width="82" height="96" rx="25" fill="#172638"/><rect x="1" y="1" width="80" height="94" rx="24" stroke="#A9CBF1" stroke-opacity=".3" stroke-width="2"/><text x="41" y="49" fill="#A9CBF1">06</text></g>
+    <g transform="translate(564 20)"><rect width="82" height="96" rx="25" fill="#292A38"/><rect x="1" y="1" width="80" height="94" rx="24" stroke="#96B5DC" stroke-opacity=".3" stroke-width="2"/><text x="41" y="49" fill="#96B5DC">07</text></g>
+    <g transform="translate(656 20)"><rect width="82" height="96" rx="25" fill="#302315"/><rect x="1" y="1" width="80" height="94" rx="24" stroke="#F1B15E" stroke-opacity=".3" stroke-width="2"/><text x="41" y="49" fill="#F1B15E">08</text></g>
+  </g>
+</svg>
