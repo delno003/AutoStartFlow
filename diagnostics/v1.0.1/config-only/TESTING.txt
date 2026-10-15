@@ -1,0 +1,25 @@
+AutoStartFlow - configuration-only startup test
+
+Use the original v1.0.0 package for this test, not the newly compiled diagnostic EXEs.
+
+1. Extract the complete original v1.0.0 package into a separate folder.
+2. Copy the two files from this folder's runtime subfolder into that package's runtime folder:
+   AutoStartFlow.exe.config
+   AutoStartFlow Setup.exe.config
+3. Start the original AutoStartFlow Setup.exe or AutoStartFlow.exe normally.
+
+If testing a Git checkout of this public repository, its root executables are still
+v1.0.0: copy these two config files into the repository's root runtime folder.
+
+No EXEs are replaced or rebuilt. No settings, profiles, exe.xml or Windows security
+settings are changed. This tests the application-local .NET configuration fix using
+the original executables. It is a validation step, not the final v1.0.1 release.
+
+All four original entry points opened visible windows in the local downloaded-file
+marker reproduction after adding these configs. The affected PC still needs testing.
+
+The separately rebuilt diagnostic EXEs have a reported Defender Bearfoos.B!ml block
+on the affected PC. Local scans with definitions 1.461.40.0 found no threats in the
+original release, diagnostic folder or diagnostic ZIP. That difference remains
+unresolved; no Microsoft clearance is claimed. If the original files are also
+blocked on your PC, record the affected path and detection; do not disable Defender.
