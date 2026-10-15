@@ -1,4 +1,8 @@
-## AutoStartFlow
+# AutoStartFlow v1.0.1
+
+[**Download AutoStartFlow v1.0.1**](https://github.com/delno003/AutoStartFlow/raw/refs/heads/main/AutoStartFlow-v1.0.1.zip)
+
+Extract the ZIP, open the AutoStartFlow folder, then run **AutoStartFlow Setup.exe** beside README.md.
 
 ***Launch, sequence, and manage your MSFS companion apps in one place.***
 
@@ -65,3 +69,8 @@ AutoStartFlow replaces that with a simple interface. Add your apps, choose when 
     - Initial release.
 - v1.0.1:
     - Fixed a critical error where ‘AutoStartFlow Setup.exe’ and ‘AutoStartFlow.exe’ failed to launch on some Windows systems.
+
+    - Added a startup indicator while the application loads.
+    - Improved Windows startup error messages.
+
+[Previous release: v1.0.0](https://github.com/delno003/AutoStartFlow/tree/v1.0.0)
