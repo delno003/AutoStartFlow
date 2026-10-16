@@ -1,8 +1,10 @@
-# AutoStartFlow v1.0.1
+# AutoStartFlow v1.0.2
 
-[**Download AutoStartFlow v1.0.1**](https://github.com/delno003/AutoStartFlow/raw/refs/heads/main/AutoStartFlow-v1.0.1.zip)
+[**Download AutoStartFlow v1.0.2**](https://github.com/delno003/AutoStartFlow/raw/refs/heads/main/AutoStartFlow-v1.0.2.zip)
 
-Extract the ZIP, open the AutoStartFlow folder, then run **AutoStartFlow Setup.exe** beside README.md.
+Extract the complete ZIP and run **AutoStartFlow Setup.exe** inside the AutoStartFlow folder.
+
+**Updating:** Close MSFS and AutoStartFlow, run Setup from the new download, choose **Update**, and select the existing installed AutoStartFlow folder. Update keeps settings, apps, configurations, profiles, and EXE.xml.
 
 ***Launch, sequence, and manage your MSFS companion apps in one place.***
 
@@ -65,12 +67,15 @@ AutoStartFlow replaces that with a simple interface. Add your apps, choose when 
 
 ### Changelog
 
+- v1.0.2:
+    - Fixed apps set to ‘After aircraft loads’ launching prematurely in the MSFS menu.
+    - Fixed inconsistent startup timing when AutoStartFlow was already open. Startup apps now wait for MSFS to process EXE.xml.
+    - Fixed app statuses remaining stuck on ‘Launching…’ while MSFS was loading.
 - v1.0.0:
     - Initial release.
 - v1.0.1:
     - Fixed a critical error where ‘AutoStartFlow Setup.exe’ and ‘AutoStartFlow.exe’ failed to launch on some Windows systems.
-
     - Added a startup indicator while the application loads.
     - Improved Windows startup error messages.
 
-[Previous release: v1.0.0](https://github.com/delno003/AutoStartFlow/tree/v1.0.0)
+[Previous release: v1.0.1](https://github.com/delno003/AutoStartFlow/tree/v1.0.1) · [v1.0.0](https://github.com/delno003/AutoStartFlow/tree/v1.0.0)
