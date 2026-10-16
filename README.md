@@ -71,11 +71,11 @@ AutoStartFlow replaces that with a simple interface. Add your apps, choose when 
     - Fixed apps set to ‘After aircraft loads’ launching prematurely in the MSFS menu.
     - Fixed inconsistent startup timing when AutoStartFlow was already open. Startup apps now wait for MSFS to process EXE.xml.
     - Fixed app statuses remaining stuck on ‘Launching…’ while MSFS was loading.
-- v1.0.0:
-    - Initial release.
 - v1.0.1:
     - Fixed a critical error where ‘AutoStartFlow Setup.exe’ and ‘AutoStartFlow.exe’ failed to launch on some Windows systems.
     - Added a startup indicator while the application loads.
     - Improved Windows startup error messages.
+- v1.0.0:
+    - Initial release.
 
 [Previous release: v1.0.1](https://github.com/delno003/AutoStartFlow/tree/v1.0.1) · [v1.0.0](https://github.com/delno003/AutoStartFlow/tree/v1.0.0)
