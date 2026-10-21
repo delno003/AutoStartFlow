@@ -67,6 +67,9 @@ AutoStartFlow replaces that with a simple interface. Add your apps, choose when 
 
 ### Changelog
 
+- v1.0.4 (unreleased):
+    - Fixed setup failing when an imported EXE.xml entry points to a missing companion app. Unavailable entries are retained disabled so their paths can be corrected after installation.
+    - Fixed the clean-install confirmation blocking retries after an incomplete installation.
 - v1.0.3:
     - Fixed AutoStartFlow Setup window not opening centered on screen.
     - Added an option to enable or disable saved window positions for individual apps.
