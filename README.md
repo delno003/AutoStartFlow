@@ -1,6 +1,6 @@
-# AutoStartFlow v1.0.3
+# AutoStartFlow v1.0.4
 
-[**Download AutoStartFlow v1.0.3**](https://github.com/delno003/AutoStartFlow/raw/refs/heads/main/AutoStartFlow-v1.0.3.zip)
+[**Download AutoStartFlow v1.0.4**](https://github.com/delno003/AutoStartFlow/releases/download/v1.0.4/AutoStartFlow-v1.0.4.zip)
 
 Extract the complete ZIP and run **AutoStartFlow Setup.exe** inside the AutoStartFlow folder.
 
@@ -67,7 +67,7 @@ AutoStartFlow replaces that with a simple interface. Add your apps, choose when 
 
 ### Changelog
 
-- v1.0.4 (unreleased):
+- v1.0.4:
     - Fixed setup failing when an imported EXE.xml entry points to a missing companion app. Unavailable entries are retained disabled so their paths can be corrected after installation.
     - Fixed the clean-install confirmation blocking retries after an incomplete installation.
 - v1.0.3:
@@ -87,4 +87,4 @@ AutoStartFlow replaces that with a simple interface. Add your apps, choose when 
 - v1.0.0:
     - Initial release.
 
-[Previous release: v1.0.2](https://github.com/delno003/AutoStartFlow/releases/tag/v1.0.2) · [v1.0.1](https://github.com/delno003/AutoStartFlow/tree/v1.0.1) · [v1.0.0](https://github.com/delno003/AutoStartFlow/tree/v1.0.0)
+[Previous release: v1.0.3](https://github.com/delno003/AutoStartFlow/releases/tag/v1.0.3) · [v1.0.2](https://github.com/delno003/AutoStartFlow/releases/tag/v1.0.2) · [v1.0.1](https://github.com/delno003/AutoStartFlow/tree/v1.0.1) · [v1.0.0](https://github.com/delno003/AutoStartFlow/tree/v1.0.0)
