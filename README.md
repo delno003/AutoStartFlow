@@ -1,6 +1,6 @@
-# AutoStartFlow v1.0.2
+# AutoStartFlow v1.0.3
 
-[**Download AutoStartFlow v1.0.2**](https://github.com/delno003/AutoStartFlow/raw/refs/heads/main/AutoStartFlow-v1.0.2.zip)
+[**Download AutoStartFlow v1.0.3**](https://github.com/delno003/AutoStartFlow/raw/refs/heads/main/AutoStartFlow-v1.0.3.zip)
 
 Extract the complete ZIP and run **AutoStartFlow Setup.exe** inside the AutoStartFlow folder.
 
@@ -67,6 +67,12 @@ AutoStartFlow replaces that with a simple interface. Add your apps, choose when 
 
 ### Changelog
 
+- v1.0.3:
+    - Fixed AutoStartFlow Setup window not opening centered on screen.
+    - Added an option to enable or disable saved window positions for individual apps.
+    - Added a toggle to apply checkbox settings to all companion apps.
+    - Added customizable launch delays of up to 300 seconds between apps.
+    - Added in-app notifications for new releases, with a direct link to Flightsim.to.
 - v1.0.2:
     - Fixed apps set to ‘After aircraft loads’ launching prematurely in the MSFS menu.
     - Fixed inconsistent startup timing when AutoStartFlow was already open. Startup apps now wait for MSFS to process EXE.xml.
@@ -78,4 +84,4 @@ AutoStartFlow replaces that with a simple interface. Add your apps, choose when 
 - v1.0.0:
     - Initial release.
 
-[Previous release: v1.0.1](https://github.com/delno003/AutoStartFlow/tree/v1.0.1) · [v1.0.0](https://github.com/delno003/AutoStartFlow/tree/v1.0.0)
+[Previous release: v1.0.2](https://github.com/delno003/AutoStartFlow/releases/tag/v1.0.2) · [v1.0.1](https://github.com/delno003/AutoStartFlow/tree/v1.0.1) · [v1.0.0](https://github.com/delno003/AutoStartFlow/tree/v1.0.0)
