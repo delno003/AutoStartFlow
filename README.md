@@ -1,6 +1,6 @@
-# AutoStartFlow v1.0.4
+# AutoStartFlow v1.0.5
 
-[**Download AutoStartFlow v1.0.4**](https://github.com/delno003/AutoStartFlow/releases/download/v1.0.4/AutoStartFlow-v1.0.4.zip)
+[**Download AutoStartFlow v1.0.5**](https://github.com/delno003/AutoStartFlow/releases/download/v1.0.5/AutoStartFlow-v1.0.5.zip)
 
 Extract the complete ZIP and run **AutoStartFlow Setup.exe** inside the AutoStartFlow folder.
 
@@ -20,6 +20,7 @@ AutoStartFlow replaces that with a simple interface. Add your apps, choose when 
 - **Choose when each app launches** - You can choose a startup trigger for every app individually. Either launch an app when MSFS starts (via EXE.xml), when you spawn into your aircraft (useful for addons that require you to first load into the airport, such as REX Atmos Core), or when you turn on your PC (Windows startup apps).
 - **Pick the monitor** - Choose which display/monitor each application opens on. This is handy on multi-monitor setups, such as an EFB on a side screen and a tracker on another.
 - **Auto-close with the sim (’Flight Watch’)** - Select which applications should close automatically when you close MSFS.
+- **Close apps when MSFS starts** - In Add/Edit flight app, select “Close when MSFS starts (do not launch)” as the launch moment for an EXE or application shortcut. With Flight Watch enabled, AutoStartFlow closes matching processes once at simulator startup. This entry does not launch the app. For closing at simulator exit, enable “Close this app when MSFS exits”. “Include apps opened before MSFS” only extends that exit rule to instances that were already running; it never closes apps at simulator startup.
 - **Remember your layout** - AutoStartFlow automatically saves the screen positions of your companion apps. The next time you launch the simulator, every standalone application opens right where you left it. No manual repositioning, no hassle, simply pick up where you left off.
 - **Enable/Disable addons** - You can choose to enable or disable specific, or all addons with a simple button click. This will allow you to fly without specific addon(s) while still keeping it in the ‘Startup apps’ list.
 - **Create custom startup profiles** - Save different setups for streaming, VATSIM, or other flight scenarios. Each profile remembers your enabled apps, launch order and moments, displays, window positions, and auto-close settings. Switch profiles with a simple click, or create, edit, duplicate, and delete them whenever you need.
@@ -62,11 +63,14 @@ AutoStartFlow replaces that with a simple interface. Add your apps, choose when 
 ### Known Limitations & Future Work
 
 - The loading times of the startup applications depend on how MSFS24 reads the EXE.xml data, so it may take up to a few minutes. However, addons (ones selected ‘on MSFS startup’) should all be loaded once the simulator loading screen completes. The ones selected as ‘on Aircraft loads’ are loaded once your aircraft spawns in an airport.
-- The Launch moments are currently limited to four options (’Windows sign-in’, ‘When MSFS starts’, ‘On aircraft load’, ‘Close only’). There are plans to add advanced customizable launch moments (such as starting an application 2 minutes after the one before, launching on engine shutdown, and much more).
+- Launch moments include Windows sign-in, MSFS startup, aircraft load, and closing at MSFS startup without launching. Closing at MSFS exit is controlled separately by the checkbox group in Add/Edit flight app. More simulator-event triggers may be added in the future.
 - AutoStartFlow is designed to be as simple and as intuitive as possible. This also means that it does not contain features vast majority of users aren’t going to use. Therefore, new features are added depending on the requests, demand, and use case variety. To help us understand this (in addition to reporting bugs, making requests, joining events, or simply being part of a  community), feel free to join the **discord server**: https://discord.gg/EjFtMeF9Sm
 
 ### Changelog
 
+- v1.0.5:
+    - Added an option to close selected apps when MSFS starts without launching them.
+    - Fixed quoted launch arguments, including script paths and arguments containing spaces.
 - v1.0.4:
     - Fixed setup failing when an imported EXE.xml entry points to a missing companion app. Unavailable entries are retained disabled so their paths can be corrected after installation.
     - Fixed the clean-install confirmation blocking retries after an incomplete installation.
@@ -86,5 +90,3 @@ AutoStartFlow replaces that with a simple interface. Add your apps, choose when 
     - Improved Windows startup error messages.
 - v1.0.0:
     - Initial release.
-
-[Previous release: v1.0.3](https://github.com/delno003/AutoStartFlow/releases/tag/v1.0.3) · [v1.0.2](https://github.com/delno003/AutoStartFlow/releases/tag/v1.0.2) · [v1.0.1](https://github.com/delno003/AutoStartFlow/tree/v1.0.1) · [v1.0.0](https://github.com/delno003/AutoStartFlow/tree/v1.0.0)
