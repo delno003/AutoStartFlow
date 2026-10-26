@@ -1,6 +1,6 @@
-# AutoStartFlow v1.0.5
+# AutoStartFlow v1.0.6
 
-[**Download AutoStartFlow v1.0.5**](https://github.com/delno003/AutoStartFlow/releases/download/v1.0.5/AutoStartFlow-v1.0.5.zip)
+[**Download AutoStartFlow v1.0.6**](https://github.com/delno003/AutoStartFlow/releases/download/v1.0.6/AutoStartFlow-v1.0.6.zip)
 
 Extract the complete ZIP and run **AutoStartFlow Setup.exe** inside the AutoStartFlow folder.
 
@@ -68,8 +68,9 @@ AutoStartFlow replaces that with a simple interface. Add your apps, choose when 
 
 ### Changelog
 
-- v1.0.5:
+- v1.0.6:
     - Fixed Fenix startup issues by keeping Fenix and iFly managed directly by MSFS, preserving their original exe.xml entries.
+- v1.0.5:
     - Added an option to close selected apps when MSFS starts without launching them.
     - Fixed quoted launch arguments, including script paths and arguments containing spaces.
 - v1.0.4:
