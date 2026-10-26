@@ -69,6 +69,7 @@ AutoStartFlow replaces that with a simple interface. Add your apps, choose when 
 ### Changelog
 
 - v1.0.5:
+    - Fixed Fenix startup issues by keeping Fenix and iFly managed directly by MSFS, preserving their original exe.xml entries.
     - Added an option to close selected apps when MSFS starts without launching them.
     - Fixed quoted launch arguments, including script paths and arguments containing spaces.
 - v1.0.4:
