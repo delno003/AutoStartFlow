@@ -1,6 +1,6 @@
-# AutoStartFlow v1.0.6
+# AutoStartFlow v1.0.7
 
-[**Download AutoStartFlow v1.0.6**](https://github.com/delno003/AutoStartFlow/releases/download/v1.0.6/AutoStartFlow-v1.0.6.zip)
+[**Download AutoStartFlow v1.0.7**](https://github.com/delno003/AutoStartFlow/releases/download/v1.0.7/AutoStartFlow-v1.0.7.zip)
 
 Extract the complete ZIP and run **AutoStartFlow Setup.exe** inside the AutoStartFlow folder.
 
@@ -68,6 +68,15 @@ AutoStartFlow replaces that with a simple interface. Add your apps, choose when 
 
 ### Changelog
 
+- v1.0.7:
+    - Fixed offline startup issues and added uninstall support without loading the dashboard.
+    - Fixed the interface appearing unstyled or unreadable on some systems.
+    - Fixed adding Windows shortcut files (`.lnk`).
+    - Added an option to create a missing exe.xml during setup.
+    - Fixed dragging AutoStartFlow while a popup is open.
+    - Added an optional setting to apply display settings to manually opened apps, off by default.
+    - Fixed apps repeatedly moving back to their assigned display after being moved manually.
+    - Refined UI text and layout for better clarity and consistency.
 - v1.0.6:
     - Fixed Fenix startup issues by keeping Fenix and iFly managed directly by MSFS, preserving their original exe.xml entries.
 - v1.0.5:
